@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 99vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #b6afaf;
+    position: relative;
+
+}
+
+.camera { 
+    width: 600px;
+    border-radius: 16px;
+    padding: 20px;
+    border:  1px solid rgba(14, 13, 13, 0.1);
+    background-color: #fff;
+
+}
+
+.camera img { 
+    border-radius: 16px;
+    
+}
+
+.camera p {
+    color: rgb(107, 105, 105);
+    font-weight: 500px;
+    font-size: 23px;
+    margin-left: 90px;
+    
+}
+
+.camera div {
+    color: rgb(107, 105, 105);
+    font-weight: 500px;
+    font-size: 23px;
+    margin-left: 90px;
+    height: 10px;
+    
+}
+
+.camera h3 {
+    height: 25px;
+    width: 55px;
+    margin-top: -40px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 5px;
+    right: -535px;
+    color: rgb(247, 245, 245);
+    background-color: rgb(31, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.camera h1 {
+    margin-top: 35px;
+    width: 500px;
+    margin-left: 90px;
+}
+
+.jake img {
+    border-radius: 100px;
+    height: 75px;
+    position: relative;
+    margin-top: 290px;
+    right:620px;
+}
