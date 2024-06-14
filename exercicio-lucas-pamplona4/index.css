@@ -124,16 +124,17 @@ body {
 .xxxxxx svg {
     position:absolute;
     margin-left: 250px;
-    margin-top: -29px;
+    margin-top: -49px;
+    color: rgb(0, 0, 0);
 
 }
 
 .xxxxxx h6 {
     position: absolute;
     font-size: 18px;
-    color: rgb(75, 73, 73);
+    color: rgb(85, 82, 82);
     margin-left: 290px;
-    margin-top: -23px;
+    margin-top: -43px;
 
 }
 
@@ -144,13 +145,23 @@ body {
 }
 
 .xxxxxx h3 {
-    position: absolute;
+    display: flex;
     color: dodgerblue;
-    margin-top: 35px;
-    margin-left: 180px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
 
- }
+}
 
+div {
+    margin: 20px;
+}
+
+
+    
+    
 
 
     
