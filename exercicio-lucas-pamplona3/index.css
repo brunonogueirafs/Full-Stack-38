@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 99vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #b6afaf;
+}
+
+.mochila {
+    width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.mochila img {
+    width: 600px;
+
+ }
+
+.bandeira img {
+    width: 650px;
+    margin-top: -230px;
+    margin-left: -640px;
+}
+
+.mochila p {
+    margin-top:10px ;
+    font-size: 45px;
+
+}
+.mochila h6 {
+    margin-top: -113px;
+    font-size: 50px;
+    font-weight: 100;
+    color: rgb(228, 76, 76);
+    margin-left: 45px;
+
+}
+
+.mochila div {
+    font-size: 28px;
+    margin-left: 400px;
+    color: #7e7c7c;
+    margin-top: -150px;
+}
+
+.mochila h5 {
+    font-weight:100;
+    font-size: 35px;
+    color: rgb(228, 76, 76);
+    margin-top: -1cap;
+}

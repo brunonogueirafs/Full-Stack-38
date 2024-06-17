@@ -1,0 +1,36 @@
+.card {
+    background-color: red;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%,-50%);
+}
+
+.card .box-blue {
+    
+    background-color:blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.card .box-green {
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    background-color:green;
+    width: 100px;
+    height: 100px;
+}
+
+.card .box-yellow {
+    position: absolute;
+    background-color:yellow;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    bottom: 0;
+}
+

@@ -1,0 +1,170 @@
+body {
+    justify-content: center;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.x img {
+    border-radius: 200px;
+    height: 75px;
+    
+ }
+ 
+.x h2 {
+    margin-top: -70px;
+    margin-left: 80px;
+}
+
+.x svg {
+    position: absolute;
+    margin-left: 205px;
+    margin-top: -45px;
+    color: dodgerblue;
+    width: 20px;
+
+}
+
+.x p {
+
+    margin-top: -20px;
+    margin-left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(102, 101, 101);
+
+}
+
+.x h3 {
+    position: absolute;
+    color: rgb(26, 101, 177);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 192px;
+    margin-top: -38px;
+
+}
+
+.xxxxxxx img {
+    position: absolute;
+    height: 40px;
+    margin-left: 470px;
+    margin-top: -53px;
+
+} 
+
+.xx img {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    margin-left: 230px;
+    margin-top:-41px;
+}
+
+.xx span {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 45px;
+
+}
+
+.xxx img {
+    border-radius: 16px;
+    margin-top: 95px;
+
+}
+
+.xxx p {
+    font-size: 20px;
+    margin-top: 15px;
+    color: rgb(88, 88, 88);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.xxx svg {
+    color:rgb(88, 88, 88);
+    position: absolute;
+    margin-left: 508px;
+    margin-top: -45px;
+}
+
+.xxxx svg {
+    margin-left: 5px;
+    margin-top: 25px;
+    color: rgb(224, 17, 17);
+    font-size: 10px;
+}
+
+.xxxx h6 {
+    position: absolute;
+    color: rgb(75, 73, 73);
+    margin-left: 40px;
+    margin-top: -24px;
+    font-size: 18px;
+    
+}
+
+.xxxxx svg {
+    position: absolute;
+    color: dodgerblue;
+    margin-left: 130px;
+    margin-top: -27px;
+
+}
+
+.xxxxx h6 {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(75, 73, 73);
+    margin-left: 165px;
+    margin-top: -25px;
+    
+}
+
+.xxxxxx svg {
+    position:absolute;
+    margin-left: 250px;
+    margin-top: -49px;
+    color: rgb(0, 0, 0);
+
+}
+
+.xxxxxx h6 {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(85, 82, 82);
+    margin-left: 290px;
+    margin-top: -43px;
+
+}
+
+.xxxxxxx img {
+    position: absolute;
+    height: 40px;
+    
+}
+
+.xxxxxx h3 {
+    display: flex;
+    color: dodgerblue;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+
+}
+
+div {
+    margin: 20px;
+}
+
+
+    
+    
+
+
+    
+
+
+
