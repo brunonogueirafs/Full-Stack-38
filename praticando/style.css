@@ -1,0 +1,70 @@
+.superior{
+    display: flex;
+    width: 100%;
+    background-color: rgb(84, 111, 161);
+    height: 90px;
+
+}
+
+.redes{
+    display: flex;
+    border-radius: 100%;
+    width: 50px;
+
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 40px;
+
+}
+
+.pesquisa input{
+    position: absolute;
+    border: 3px solid rgb(221, 214, 214);
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    left: 79%;
+    background-color:rgb(84, 111, 161);
+    top: 25px;
+    
+       
+}
+
+input::placeholder{
+    position: absolute;
+    color: rgb(221, 214, 214);
+    left: 10%;
+    
+}
+
+.pesquisa svg{
+    color: rgb(217, 233, 233);
+    position: absolute;
+    right: 42px;
+    top:40px;
+    width: 50px;
+    height: 30px;
+}
+
+
+  
+
+
+
+
+    
+
+
+    
+
+    
+
+    
+    
+
+
+
