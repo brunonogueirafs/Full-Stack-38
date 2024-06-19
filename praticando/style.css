@@ -2,9 +2,10 @@
   position: absolute;
   width: 100%;
   background-color: rgb(84, 111, 161);
-  top: 0px;
   left: 0px;
-  height: 10%;
+  top: 0px;
+
+
 }
 
 .redes {
@@ -24,11 +25,11 @@
 
 .pesquisa input {
   position: absolute;
+  left: 73%;
   border: 3px solid rgb(221, 214, 214);
   height: 50px;
-  width: 400px;
+  width: 450px;
   font-size: 20px;
-  left: 79%;
   background-color: rgb(84, 111, 161);
   top: 17px;
   outline: unset;
@@ -37,19 +38,20 @@
 input::placeholder {
   position: absolute;
   color: rgb(221, 214, 214);
-  left: 10%;
+  left: 2%;
 }
 
 .pesquisa svg {
   color: rgb(217, 233, 233);
   position: absolute;
-  right: 42px;
+  right: 60px;
   top: 30px;
   width: 50px;
   height: 30px;
 }
 
 .inferior {
+  display: block;
   position: absolute;
   width: 100%;
   background-color: rgb(206, 222, 240);
@@ -59,18 +61,21 @@ input::placeholder {
 }
 
 .logo h2 {
+  display: block;
   position: absolute;
   color: rgb(121, 129, 129);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 100px;
   top: -80px;
-  left: 5%;
+  left: 115px;
   font-weight: 200;
 }
 .menu {
-  display: flex;
+  display: block;
+  display:flex;
+  position: fixed;
   gap: 80px;
-  margin-left: 73%;
+  margin-left: 70%;
   margin-top: 40px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -102,3 +107,15 @@ input::placeholder {
   transition: 0.5s;
   margin-top: -50;
 }
+ 
+.input-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+ 
+  
+
+
