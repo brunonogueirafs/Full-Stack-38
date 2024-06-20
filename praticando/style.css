@@ -4,8 +4,6 @@
   background-color: rgb(84, 111, 161);
   left: 0px;
   top: 0px;
-
-
 }
 
 .redes {
@@ -107,15 +105,5 @@ input::placeholder {
   transition: 0.5s;
   margin-top: -50;
 }
- 
-.input-wrapper{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-}
-
- 
-  
 
 
