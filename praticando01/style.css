@@ -1,1 +1,137 @@
+.superior {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
 
+.redes {
+  width: 35px;
+  border-radius: 40px;
+  list-style: none;
+  margin: 3px;
+  display: inline-flex;
+}
+
+.icons {
+  position: absolute;
+  left: 92%;
+  top: 5%;
+  width: 100%;
+  right: 10%;
+}
+
+.superior i {
+  position: absolute;
+  color: white;
+  margin: 10px;
+}
+
+.numero p {
+  display: flex;
+  margin-left: 35px;
+  margin-top: 10px;
+  color: white;
+}
+
+.numero {
+  display: flex;
+}
+
+.inferior {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(206, 207, 230);
+  left: 0%;
+  margin-top: 36px;
+  height: 150px;
+}
+
+.inferior img {
+  display: flex;
+  width: 80px;
+  margin-left: 40px;
+  margin: 35px;
+}
+
+.inferior h3 {
+  display: flex;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -85px;
+  margin-left: 130px;
+  color: rgb(63, 61, 61);
+}
+
+.menu {
+  text-decoration: none;
+  width: 100%;
+  color: rgb(63, 61, 61);
+}
+
+.opcoes li {
+  display: inline-block;
+  list-style: none;
+  padding: 2rem;
+  margin-top: -100px;
+}
+
+.opcoes ul {
+  display: flex;
+  margin-left: 26%;
+  top: 30%;
+  font-size: 20px;
+}
+
+.opcoes li a {
+  text-decoration: none;
+  color: rgb(63, 61, 61);
+}
+
+.opcoes a::after {
+  content: "";
+  display: block;
+  width: 0;
+  margin-top: 10px;
+  height: 2px;
+  background: #3c81ff;
+}
+
+.opcoes a:hover {
+  color: #0f0f0f;
+}
+
+.opcoes a:hover::after {
+  width: 100%;
+  transition: 0.5s;
+  margin-top: -50;
+}
+.pesquisa input {
+  position: absolute;
+  outline: unset;
+  border-radius: 40px;
+  height: 50px;
+  width: 100%px;
+  left: 85%;
+  border: 1px solid rgb(120, 187, 135);
+  top: 48px;
+  background-color: rgb(70, 182, 216);
+}
+
+.pesquisa ::placeholder {
+  position: absolute;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  left: 25%;
+}
+
+.lupa svg {
+  position: absolute;
+  color: rgb(70, 182, 216);
+  width: 30px;
+  height: 30px;
+  left: 95%;
+  top: 42%;
+}
