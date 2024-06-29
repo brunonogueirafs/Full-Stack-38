@@ -1,0 +1,58 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+    
+}
+main{
+    & section {
+        & article {
+            & .menu-hamburguer-icon{
+                display: flex;
+                margin-left: 300px;
+                margin-top: -40px;    
+            }
+
+            & .text{
+            
+                
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+
+            & p{
+                margin-left: -237px;
+                font-size:Josefin Sans;
+                color: aqua;
+
+            }
+
+            & h1{
+                width: 318px;
+                height: 208px;
+                display: flex;
+                margin-left: 75px;
+                text-align: center;
+                width: 165px;
+                height: 48px;
+                background-color: antiquewhite;
+
+            }
+
+            & .p-2{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                width: 318px;
+                height: 208px;
+                background-color: antiquewhite;
+            }
+        }
+    }
+}
