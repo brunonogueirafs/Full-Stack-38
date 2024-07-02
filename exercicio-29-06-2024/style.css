@@ -8,43 +8,154 @@ body{
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: bisque;
-    
+    background-color: rgb(231, 231, 230);
+     
+}
+.pagina-1{
+    width: 414px;
+    height: 4498px;
+    background-color: rgb(255, 255, 255);
+}
 
+.titulo{
+    width: 77px;
+    height: 20px;
+    background-color: aqua;
+    margin-left: 15px;
+    margin-top: 32px;
+}
+
+.titulo h6{
+    font-family: "josefin sans", sans-serif;
+    font-size: medium;
+    line-height: 20px;
+    letter-spacing: 6%;
+    font-weight: 500;
+}
+
+.icon{
+    width: 24px;
+    height: 30px;
+    background-color: aqua;
     
 }
-main{
-    & section {
-        & article {
-            & .pagina{
-                display: flex;
-                background-color: azure;
-                width: 414px;
-                height: 4498px;
-                margin: 5px;
-            }
 
-                & h6{
-                    width: 77px;
-                    height: 20px;
-                    background-color: aquamarine;
-                    margin-left: 15px;
-                    margin-top: 32px;
-                    font-family:"Josefin Sans",sans-serif;
-                    font-size: 20px;
-                    line-height: 20px;
-                    letter-spacing: -6%;
-                    font-weight: 400;
-                }
-                        & .icon i{
-                            position: fixed;
-                            text-decoration:none ;
-                            background-color: aqua;
-                            width: 24px;
-                            height: 30px;
-                            
-                            
-                        }
-        }
-    }
+.icon i{
+    display: flex;
+    font-size: 26px;
+    color: black;
+    margin-top: -22px;
+    margin-left: 375px;    
 }
+
+.icon a{
+    text-decoration: none;
+}
+
+.icon p {
+    display: flex;
+    color: aqua;
+    font-family:"inter", sans-serif;
+    font-size: 8px;
+    color: #4E5A65;
+    margin-top: -4px;
+    margin-left: 375px;    
+}
+
+.texto-valor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 159.59px;
+    height: 21px;
+    margin-top: 76px;
+    margin-left:127px;
+}
+
+.texto-valor p{
+    width: 120px;
+    height: 13px;
+    font-family: "inter", sans-serif;
+    font-size: 13px;
+    line-height: 13px;
+    color:#35414B ;
+}
+
+.tabela-email{
+    width: 318px;
+    height: 336px;
+    margin-left: 48px;
+    margin-top: 16px;
+    
+    
+}
+
+.texto-1{
+    width: 318px;
+    height: 120px;
+    background-color: rgb(110, 119, 118);
+}
+
+.tabela-email strong{
+    display: flex;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    color: #35414B;
+    line-height: 40px;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.tabela-email p{
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4E5A65;
+    display: flex;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.tabela-email input{
+    width: 312px;
+    height: 52px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline:unset;
+    border: 1px solid #E1E5EA;
+}
+
+.tabela-email ::placeholder{
+    display: flex;
+    text-align: center;
+    color:#97A5B5;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    
+    
+}
+.tabela-email button{
+    width: 318px;
+    height: 52px;
+    border-radius: 4px;
+    background-color:#794CFF;
+    color: white;
+    border: 1px solid #794CFF;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+    margin-top: 8px;   
+}
+
+.imagem{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -16px;
+}
+
+
+
+
