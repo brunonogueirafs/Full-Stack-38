@@ -50,7 +50,6 @@ body {
 
 .icon p {
   display: flex;
-  color: aqua;
   font-family: "inter", sans-serif;
   font-size: 8px;
   color: #4e5a65;
@@ -355,4 +354,50 @@ body {
 
 .titulo-8 img {
   margin-top: 37px;
+}
+
+.graficos-2{
+  margin-top: 32px;
+}
+.titulo-10{
+  text-align: center;
+  margin-left: 31px;
+  width: 322px;
+  height: 204px;
+  margin-top: 32.35px;
+}
+.titulo-10 h6{
+  margin-left: 82px;
+  height: 48px;
+  width: 155px;
+  font-family: "inter", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #35414B;
+}
+
+.titulo-10 p{
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4E5A65;
+  margin-top:-25px;
+}
+.titulo-10 button{
+  width:322px ;
+  height: 52px;
+  background-color: #796EFF;
+  cursor: pointer;
+  overflow: unset;
+  border-radius: 4px;
+  border: 1px solid #796EFF;
+  color: white;
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  
+
+
+
 }
